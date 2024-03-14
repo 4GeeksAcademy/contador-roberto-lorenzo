@@ -1,4 +1,13 @@
+#app {
+    background: black;
+    margin: 10px;
+}
 
+.cardStyle {
+    width: 120px;
+    height: auto;
+    font-size: 3rem;
+}
 /* 
 
     You can write your own styles here...
