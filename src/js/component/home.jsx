@@ -93,7 +93,7 @@ const SecondCounter = () => {
                 <Card key={index} item={item} />
               ))
             }
-            <button className={`btn btn-dark ${iniciar ? "danger" : "success" }`} onClick={pausa}>{btn-outline-iniciar ? "pausa" : "iniciar"}</button>
+            <button className={`btn btn-dark btn-outline-${iniciar ? "danger" : "success" }`} onClick={pausa}>{iniciar ? "pausa" : "iniciar"}</button>
         </div>
       </div>
 
